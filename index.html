@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <div class="main-screen">
+                <div class="header">
+                    <div class="header-row">
+                        <div class="header-logo">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <nav class="header-menu menu">
+                            <div class="menu-icon icon-menu">
+                                <span></span>
+                            </div>
+                            <div class="menu-body">
+                                <ul class="menu-list">
+                                    <li><a href="#" class="menu-link">Главная</a></li>
+                                    <li><a href="#" class="menu-link">Курсы</a></li>
+                                    <li><a href="#" class="menu-link">Расписание</a></li>
+                                    <li><a href="#" class="menu-link">Преподаватели</a></li>
+                                    <li><a href="#" class="menu-link">Рассылка</a></li>
+                                    <li><a href="#" class="menu-link">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="header-login">
+                            <button id="login-btn" class="login-btn" type="button">Зайти в кабинет</button>
+                        </div>
+                    </div>
+                    <div class="timer">
+                        <h1 class="timer-title">Первый курс <br> по компьютерной сборке</h1>
+                        <div id="deadline-message" class="deadline-message">
+                        Время вышло!
+                        </div>
+                        <div id="countdown" class="countdown">
+                            <div class="countdown-number">
+                                <span class="days countdown-time"></span>
+                                <span class="countdown-text">Дней</span>
+                            </div>
+                            <div class="countdown-number">
+                                <span class="hours countdown-time"></span>
+                                <span class="countdown-text">Часов</span>
+                            </div>
+                            <div class="countdown-number">
+                                <span class="minutes countdown-time"></span>
+                                <span class="countdown-text">Минут</span>
+                            </div>
+                            <div class="countdown-number">
+                                <span class="seconds countdown-time"></span>
+                                <span class="countdown-text">Секунд</span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+        </main>
+        <div class="course">
+            <div class="container">
+                <div class="course-block">
+                    <div class="course-btn">
+                        <button type="button">Заказать Курс</button>
+                    </div>
+                
+                    <div class="course-member">
+                        <ul class="member-list">
+                            <li>Участников всего:</li>
+                            <li>Успешно закончили курс:</li>
+                        </ul>
+                        <ul class="count-list">
+                            <li>200</li>
+                            <li>190</li>
+                        </ul>
+                    </div>
+                
+                    <div class="course-money">
+                        <div class="got-stud">
+                            <ul class="got-stud__list">
+                                <li>Заработано учениками:</li>
+                                <li>0 ₽</li>
+                            </ul>
+                        </div>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="summ">
+                            <ul class="summ__list">
+                                <li>0</li>
+                                <li>1 000 000₽</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="job block">
+                 <div class="job-pc">
+                     <img src="img/box.png" alt="">
+                 </div>
+                 <div class="job-title">
+                    <h2>Чем мы занимаемся?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </p>
+                </div>
+            </div>
+            <div class="start block">
+                <div class="start-title">
+                    <div class="start-title__img"><img src="img/start.png" alt=""></div>
+                    <p>Быстрый старт</p>
+                </div>
+                <div class="start-text">
+                    <p>Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                </div>
+                <div class="percent">
+                    <div class="percent-number">
+                        <p>100%</p>
+                        <p>75%</p>
+                        <p>50%</p>
+                        <p>Итог</p>
+                    </div>
+                    <div class="percent-block">
+                        <img src="img/block.png" alt="">
+                    </div>
+                    <div class="percent-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prof block">
+                        <div class="prof-title">Получите профессию прямо сейчас</div>
+                        <div class="skills">
+                            <div class="skills__block">
+                                <div class="skills-img">
+                                    <img src="img/s1.png" alt="">
+                                </div>
+                                <div class="skills-title">
+                                    <p>Только практические навыки в работе</p>
+                                </div>
+                                <div class="skills-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                                </div>
+                            </div>
+                            <div class="skills__block">
+                                <div class="skills-img">
+                                    <img src="img/s2.png" alt="">
+                                </div>
+                                <div class="skills-title">
+                                    <p>Работа на самом современном оборудовании</p>
+                                </div>
+                                <div class="skills-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                                </div>
+                            </div>
+                            <div class="skills__block">
+                                <div class="skills-img">
+                                    <img src="img/s3.png" alt="">
+                                </div>
+                                <div class="skills-title">
+                                    <p>Сертификация по окончании обучения</p>
+                                </div>
+                                <div class="skills-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="brand block">
+                        <div class="brand-title">
+                            <div class="brand-title__img"><img src="img/brand.png" alt=""></div>
+                            <p>Партнеры - топовые бренды</p>
+                        </div>
+                        <div class="brand-icons">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                            <img src="img/msi.png" alt="">
+                        </div>
+            </div>
+            <div class="teachers block">
+                 <div class="teachers-title">
+                     <div class="teachers-img"><img src="img/teacher.png" alt=""></div>
+                     <p>Ваши преподаватели</p>
+                 </div>
+                 <div class="person">
+                     <div class="person__block">
+                         <div class="person-img">
+                             <img src="img/T1.png" alt="">
+                         </div>
+                         <div class="person-name">
+                             <p>Дмитрий Иванов</p>
+                         </div>
+                         <div class="person-skill">
+                             <p>Специалист по видеокартам</p>
+                         </div>
+                         <button type="button">Биография</button>
+                     </div>
+                     <div class="person__block">
+                         <div class="person-img">
+                             <img src="img/T2.png" alt="">
+                         </div>
+                         <div class="person-name">
+                             <p>Дмитрий Иванов</p>
+                         </div>
+                         <div class="person-skill">
+                             <p>Специалист по видеокартам</p>
+                         </div>
+                         <button type="button">Биография</button>
+                     </div>
+                     <div class="person__block">
+                         <div class="person-img">
+                             <img src="img/T3.png" alt="">
+                         </div>
+                         <div class="person-name">
+                             <p>Дмитрий Иванов</p>
+                         </div>
+                         <div class="person-skill">
+                             <p>Специалист по видеокартам</p>
+                         </div>
+                         <button type="button">Биография</button>
+                     </div>
+                 </div> 
+            </div>
+            <div class="popup-login" id="popup-login">
+                <div class="login-body">
+                    <button class="close"></button>
+                    <div class="login-title">
+                        <div class="title-text"><p>Вход/Регистрация</p></div>
+                    </div>
+                    
+                    <div class="login-data">
+                        <input placeholder="Введите E-mail" type="email" >
+                        <input placeholder="Введите пароль" type="password">
+                    </div>
+                    <div class="sign">
+                        <button class="login-button" type="button">Войти</button> 
+                        <a class="registr" href="">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <footer>
+        <div class="footer-title">
+            <p>Статьи каждую неделю</p>
+        </div>
+        <div class="footer-text">
+            Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+        </div>
+        <div class="mail">
+            <input type="email" placeholder="E-mail">
+            <button type="button">Подписаться</button>
+        </div>
+        <div class="footer-social">
+            <ul class="social">
+                <li class="social-item"><a class="social-link social-vk" href="" target="_blank"></a></li>
+                <li class="social-item"><a class="social-link social-utube" href="" target="_blank"></a></li>
+                <li class="social-item"><a class="social-link social-fb" href="" target="_blank"></a></li>
+                <li class="social-item"><a class="social-link social-inst" href="" target="_blank"></a></li>
+            </ul>
+        </div>
+        <p style="opacity:0.6">Nameless (с) 2021 Все права защищены.</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
